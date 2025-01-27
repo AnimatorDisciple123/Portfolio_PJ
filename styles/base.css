@@ -1,0 +1,110 @@
+:root {
+    --bg-main: #0F111A;
+    --bg-aside: #090B10;
+    --border: #1E212D;
+    --clrs-blue: #82aaff;
+    --clrs-cyan: #89ddff;
+    --clrs-green: #c3e88d;
+    --clrs-magenta: #c792ea;
+    --clrs-red: #f07178;
+    --clrs-orange: #F78C6C;
+    --clrs-yellow: #ffcb6b;
+    --basic-text: #B2CCD6;
+    --unimportant-text: #505a5e;
+    --none: #00000000;
+    --highlight: #1E212D;
+    --highlightAlt: #313649;
+    --sidebarAnim: 500ms ease-in-out;
+    --gradient: linear-gradient(to right bottom, #320370, #15171B);
+    --linkHighlight: rgb(38, 150, 255);
+    --linkDefault: var(--clrs-magenta);
+}
+
+* {
+    scroll-behavior: smooth; /*<html> ensures that it is applied to the entire page-->*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    scrollbar-color: var(--highlight) var(--bg-main) !important;
+    
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    background-image: var(--gradient);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-image: url("https://miro.medium.com/v2/resize:fit:3840/1*Tkf2JP_u7Ga-DIM_S_9Zcw.gif");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer a {
+    color: white;
+    text-decoration: none; /*removes underline from links*/
+    align-content: center;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: teal;
+}
+
+.nav {
+    background-color: teal;
+    padding: 40px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none; /*removes underline from links*/
+    align-content: center;
+    font-size: 20px;
+    font-family: Helvetica;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: lightblue;
+}
+
+#niger {
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--linkDefault);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#niger:hover,
+#niger:active {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+	color: var(--linkHighlight);
+	text-decoration: none
+}
