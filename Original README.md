@@ -16,7 +16,7 @@
 </a>
 <br>
 <a href="https://github.com/AnimatorDisciple123/Portfolio_PJ">
-  <img align="center" height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=AnimatorDisciple123&repo=Portfolio_PJ&theme=catppuccin_mocha&show_owner=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=AnimatorDisciple123&repo=Portfolio_PJ&theme=catppuccin_mocha&show_owner=true" />
 </a>
 
 <!---
