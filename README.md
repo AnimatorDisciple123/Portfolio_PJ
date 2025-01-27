@@ -1,5 +1,5 @@
 # Actual Website
-TBA
+piyush.paraliyzed.net
 
 If there are any bugs/issues on my website, please open a new issue [here](https://github.com/AnimatorDisciple123/Portfolio_PJ/issues) and I will help you a soon as I can.
 
