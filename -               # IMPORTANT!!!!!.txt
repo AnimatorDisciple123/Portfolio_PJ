@@ -1,0 +1,4 @@
+Things to change:
+The colors, it burns my eyes
+Also for your readme.md, put that in a new repo name AnimatorDisciple123 to make that readme.md show up on your profile and not in this repo.
+Also make all of your images not draggable
