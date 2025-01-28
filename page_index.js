@@ -185,9 +185,9 @@ function generate() {
 		container.appendChild(osuHeading);
 		
 		const osuSongs = [
-			{ src: 'https://paraliyzed.net/img/DECO%EF%BC%8A27%20-%20%E5%88%9D%E5%B5%90%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20[L7BxD7HHWl4].mp3', type: 'audio/mpeg' },
-			{ src: 'https://paraliyzed.net/img/Rabbit%20Hole%20%E2%A7%B8%20Pure%20Pure%20%EF%BC%82%E3%83%A9%E3%83%93%E3%83%83%E3%83%88%E3%83%9B%E3%83%BC%E3%83%AB%EF%BC%82%204K%20Edit%20Full%20Version%20feat.%20@channelcaststation%20[zVRDUtJXCrQ].mp3', type: 'audio/mpeg' },
-			{ src: 'https://paraliyzed.net/img/mesmerizer%2025%20people.mp3?i=2', type: 'audio/mpeg' },
+			{ src: 'https://paraliyzed.net/img/DECO%EF%BC%8A27%20-%20%E5%88%9D%E5%B5%90%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20[L7BxD7HHWl4].mp3?i=1', type: 'audio/mpeg' },
+			{ src: 'https://paraliyzed.net/img/Rabbit%20Hole%20%E2%A7%B8%20Pure%20Pure%20%EF%BC%82%E3%83%A9%E3%83%93%E3%83%83%E3%83%88%E3%83%9B%E3%83%BC%E3%83%AB%EF%BC%82%204K%20Edit%20Full%20Version%20feat.%20@channelcaststation%20[zVRDUtJXCrQ].mp3?i=1', type: 'audio/mpeg' },
+			{ src: 'https://paraliyzed.net/img/mesmerizer%2025%20people.mp3?i=3', type: 'audio/mpeg' },
 		];
 
 		osuSongs.forEach(song => {
@@ -232,7 +232,7 @@ function generate() {
 		container.appendChild(nonOsuHeading);
 
 		const nonOsuSongs = [
-			{ src: 'https://paraliyzed.net/img/CRAZY (feat. PinkPantheress) English Ver.).mp3', type: 'audio/mpeg' },
+			{ src: 'https://paraliyzed.net/img/CRAZY%20(feat.%20PinkPantheress)%20English%20Ver.).mp3?i=1', type: 'audio/mpeg' },
 		];
 
 		nonOsuSongs.forEach(song => {
