@@ -1,0 +1,161 @@
+:root {
+    --bg-main: #0F111A;
+    --bg-aside: #090B10;
+    --border: #1E212D;
+    --clrs-blue: #82aaff;
+    --clrs-cyan: #89ddff;
+    --clrs-green: #c3e88d;
+    --clrs-magenta: #c792ea;
+    --clrs-red: #f07178;
+    --clrs-orange: #F78C6C;
+    --clrs-yellow: #ffcb6b;
+    --basic-text: #B2CCD6;
+    --unimportant-text: #505a5e;
+    --none: #00000000;
+    --highlight: #1E212D;
+    --highlightAlt: #313649;
+    --sidebarAnim: 500ms ease-in-out;
+    --gradient: linear-gradient(to right bottom, #320370, #15171B );
+    --linkHighlight: rgb(38, 150, 255);
+    --linkDefault: var(--clrs-magenta);
+}
+
+#mainTitle {
+    /* background: linear-gradient(to right, #FF6A00 1%, #FF00DC 99%); */
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
+    text-align: center;
+    width: 500px;
+    height: 20px;
+
+}
+
+.mainObject {
+    /* display: ; */
+    display: block;
+    clear: both;
+    margin: auto;
+    opacity: 1;
+    border-radius: 10%;
+}
+
+#content {
+    text-align: center;
+}
+
+body h1{   /*centers the h1 element*/
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+ul,ol{
+    list-style-position: inside;
+    color: teal;
+}
+
+img{
+    opacity: 0.5;
+    border-radius: 10%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.header{ /*centers the header element*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+}
+
+h1 {  /*color of the h1 element*/
+    font-family: Helvetica;
+    color: teal; 
+}
+
+h2{
+    font-family: Helvetica;
+    color: teal;
+    
+}
+
+p{
+    font-family: century gothic;
+    color: green;
+    line-height: 1.5;    
+    font-size: 15px;
+}
+
+h3{
+    font-family: Helvetica;
+    color: teal;
+    
+}
+
+.intro {
+    background-color: lightblue;
+    padding: 20px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+.intro ul{
+    font-family: Garamond;
+    color: teal;
+    text-align: center;
+}
+
+
+.background{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    font-family: Garamond;
+    text-align:center;
+    justify-content: center;
+}
+
+.background a{
+    font-family: Garamond;
+    color: teal;
+    text-decoration: none;/*removes underline from links*/
+}
+
+.background figcaption{
+    padding: 20px; /*adds padding around the text to space it out from figure*/
+}
+
+.hobbies {
+    background-color: lightblue;
+    padding: 10px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+ .media {
+    margin: auto;
+    width: 50%;
+}
+
+/*
+.media img {
+    Put whatever
+}
+*/
+
+.caption {
+    font-size: 0.9em;
+    color: green;
+    margin-top: 5px;
+    text-align: center;
+    /* Idk if you want it like this but yk */
+}
