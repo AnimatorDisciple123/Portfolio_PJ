@@ -141,10 +141,12 @@ h3{
     text-align: center;
 }
 
-/* .media {
-    Put whatever
+ .media {
+    margin: auto;
+    width: 50%;
 }
 
+/*
 .media img {
     Put whatever
 }
