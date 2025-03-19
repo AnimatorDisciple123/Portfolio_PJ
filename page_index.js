@@ -83,21 +83,21 @@ function generate() {
 		const header = document.createElement('h2');
 		header.innerText = 'Background';
 		section.appendChild(header);
+		const mediaDiv = document.createElement('div');
+		mediaDiv.className = 'media';
 		const anchor = document.createElement('a');
 		anchor.href = 'https://outreach-international.org/blog/poverty-in-india/';
 		anchor.target = '_blank';
-		const mediaDiv = document.createElement('div');
-		mediaDiv.className = 'media';
 		const img = document.createElement('img');
 		img.src = 'https://newprojects.99acres.com/projects/modi_builders/modi_lotus_homes/images/w1btogb_1734426730_538459161_med.webp';
 		img.alt = 'Image representing poverty-stricken area';
-		mediaDiv.appendChild(img);
+		anchor.appendChild(img);
+		mediaDiv.appendChild(anchor);
 		const caption = document.createElement('p');
 		caption.className = 'caption';
 		caption.innerText = 'I was born in a poverty-stricken area in the trenches of India.';
 		mediaDiv.appendChild(caption);
-		anchor.appendChild(mediaDiv);
-		section.appendChild(anchor);
+		section.appendChild(mediaDiv);
 		const paragraph1 = document.createElement('p');
 		paragraph1.innerText = `I was raised by a hard-working mother and with an intelligent brother. 
 		It's a miracle that I have transformed my life in such amazing ways. 
